@@ -1,0 +1,86 @@
+body {
+    font-family: 'Poppins', sans-serif;;
+}
+
+section {
+    height: 500px;
+    background-color: yellow;
+    border: solid black 1px;
+}
+
+.hero {
+    background-color: rgb(37, 35, 39);
+    height: 100vh;
+    color: white;
+    font-size: 30px;
+}
+
+footer {
+    height: 500px;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+}
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 900px;
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 4px;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: #fa6d3e;
+}
+
+.button:active {
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
