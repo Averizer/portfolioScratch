@@ -57,6 +57,11 @@ li {
     text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+  color: #ff66c4;
+}
+
 p {
     margin: 0px;
     font-size: 30px;
@@ -285,6 +290,14 @@ h1 {
   display: flex;
   justify-content: space-around;
   padding-top: 70px;
+  margin: 10px
+}
+
+@media only screen and (max-width: 1500px){
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .project-card {
@@ -363,4 +376,7 @@ h1 {
 
 footer {
   height: 200px;
+  color: white;
+  text-align: center;
+  padding: 80px;
 }
